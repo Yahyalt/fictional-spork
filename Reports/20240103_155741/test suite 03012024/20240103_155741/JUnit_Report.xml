@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test suite 03012024" time="41.054" tests="4" failures="0" errors="0">
+   <testsuite name="test suite 03012024" tests="4" failures="0" errors="0" time="41.054" skipped="0" timestamp="2024-01-03 15:57:43" hostname="LENOVO - LAPTOP-6D1EASRA" id="Test Suites/test suite 03012024">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\fictional-spork\\Reports\\20240103_155741\\test suite 03012024\\20240103_155741"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\fictional-spork\\Reports\\20240103_155741\\test suite 03012024\\20240103_155741\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - LAPTOP-6D1EASRA"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.22"/>
+         <property name="sessionId" value="ac5743eb009e5b9ff3e82e14b3990e59"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Positive Case/Login with valid data" time="15.955" classname="Test Cases/Positive Case/Login with valid data" status="PASSED">
+         <system-out><![CDATA[2024-01-03 15:57:43 - [TEST_CASE][PASSED] - Test Cases/Positive Case/Login with valid data: Test Cases/Positive Case/Login with valid data
+
+2024-01-03 15:57:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-03 15:57:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-03 15:57:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-03 15:57:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-03 15:57:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2024-01-03 15:57:47 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2024-01-03 15:57:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), "girilaris01@gmail.com"): Text 'girilaris01@gmail.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-01-03 15:57:48 - [MESSAGE][PASSED] - Text 'girilaris01@gmail.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-01-03 15:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e")): Object: 'Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e' is clicked on
+
+2024-01-03 15:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e' is clicked on
+
+2024-01-03 15:57:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "2m9u9haLo3Dd/p6+0T8ZCw=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-01-03 15:57:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-01-03 15:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-01-03 15:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-01-03 15:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Facebook  log in or sign up/profile icon image")): Object: 'Object Repository/Page_Facebook  log in or sign up/profile icon image' is clicked on
+
+2024-01-03 15:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/profile icon image' is clicked on
+
+2024-01-03 15:57:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Facebook  log in or sign up/profile inside profile icon image")): Object 'Object Repository/Page_Facebook  log in or sign up/profile inside profile icon image' is visible
+
+2024-01-03 15:57:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Facebook  log in or sign up/profile inside profile icon image' is visible
+
+2024-01-03 15:57:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-03 15:57:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/Login with empty email" time="6.476" classname="Test Cases/Negative Case/Login with empty email" status="PASSED">
+         <system-out><![CDATA[2024-01-03 15:57:59 - [TEST_CASE][PASSED] - Test Cases/Negative Case/Login with empty email: Test Cases/Negative Case/Login with empty email
+
+2024-01-03 15:58:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-03 15:58:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-03 15:58:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-03 15:58:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-03 15:58:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2024-01-03 15:58:03 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2024-01-03 15:58:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e")): Object: 'Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e' is clicked on
+
+2024-01-03 15:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e' is clicked on
+
+2024-01-03 15:58:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "2m9u9haLo3Dd/p6+0T8ZCw=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-01-03 15:58:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-01-03 15:58:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-01-03 15:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-01-03 15:58:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Facebook  log in or sign up/the email address is not connected to an account"), "The email address or mobile number you entered isn't connected to an account. Find your account and log in."): Actual text and expected text of test object 'Object Repository/Page_Facebook  log in or sign up/the email address is not connected to an account' are matched.
+
+2024-01-03 15:58:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Facebook  log in or sign up/the email address is not connected to an account' are matched.
+
+2024-01-03 15:58:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-03 15:58:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/Login with empty password" time="8.727" classname="Test Cases/Negative Case/Login with empty password" status="PASSED">
+         <system-out><![CDATA[2024-01-03 15:58:06 - [TEST_CASE][PASSED] - Test Cases/Negative Case/Login with empty password: Test Cases/Negative Case/Login with empty password
+
+2024-01-03 15:58:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-03 15:58:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-03 15:58:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-03 15:58:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-03 15:58:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2024-01-03 15:58:08 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2024-01-03 15:58:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), "girilaris01@gmail.com"): Text 'girilaris01@gmail.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-01-03 15:58:09 - [MESSAGE][PASSED] - Text 'girilaris01@gmail.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-01-03 15:58:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e")): Object: 'Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e' is clicked on
+
+2024-01-03 15:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e' is clicked on
+
+2024-01-03 15:58:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-01-03 15:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-01-03 15:58:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Facebook  log in or sign up/we will send you a code"), "We'll send you a code to your email address"): Actual text and expected text of test object 'Object Repository/Page_Facebook  log in or sign up/we will send you a code' are matched.
+
+2024-01-03 15:58:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Facebook  log in or sign up/we will send you a code' are matched.
+
+2024-01-03 15:58:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-03 15:58:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Case/login with invalid email but valid password" time="9.667" classname="Test Cases/Negative Case/login with invalid email but valid password" status="PASSED">
+         <system-out><![CDATA[2024-01-03 15:58:15 - [TEST_CASE][PASSED] - Test Cases/Negative Case/login with invalid email but valid password: Test Cases/Negative Case/login with invalid email but valid password
+
+2024-01-03 15:58:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-03 15:58:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-03 15:58:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-03 15:58:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-03 15:58:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2024-01-03 15:58:17 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2024-01-03 15:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), "emailinvalid.com"): Text 'emailinvalid.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-01-03 15:58:18 - [MESSAGE][PASSED] - Text 'emailinvalid.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-01-03 15:58:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e")): Object: 'Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e' is clicked on
+
+2024-01-03 15:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e' is clicked on
+
+2024-01-03 15:58:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "2m9u9haLo3Dd/p6+0T8ZCw=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-01-03 15:58:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-01-03 15:58:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-01-03 15:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-01-03 15:58:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Facebook  log in or sign up/element warning")): Object 'Object Repository/Page_Facebook  log in or sign up/element warning' is visible
+
+2024-01-03 15:58:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Facebook  log in or sign up/element warning' is visible
+
+2024-01-03 15:58:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Facebook  log in or sign up/the email address is not connected to an account"), "The email address or mobile number you entered isn't connected to an account. Find your account and log in."): Actual text and expected text of test object 'Object Repository/Page_Facebook  log in or sign up/the email address is not connected to an account' are matched.
+
+2024-01-03 15:58:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Facebook  log in or sign up/the email address is not connected to an account' are matched.
+
+2024-01-03 15:58:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-03 15:58:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-03 15:57:43 - [TEST_SUITE][PASSED] - test suite 03012024: Test Cases/Negative Case/login with invalid email but valid password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

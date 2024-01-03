@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test suite 03012024,Chrome 120.0.0.0,,,2024-01-03 15:57:43,2024-01-03 15:58:24,41.054s,PASSED
+,,,,,,,
+Test Cases/Positive Case/Login with valid data,Chrome 120.0.0.0,,,2024-01-03 15:57:43,2024-01-03 15:57:59,15.955s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-03 15:57:44,2024-01-03 15:57:46,1.887s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 120.0.0.0,,,2024-01-03 15:57:46,2024-01-03 15:57:47,1.253s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""girilaris01@gmail.com"")",Chrome 120.0.0.0,,,2024-01-03 15:57:47,2024-01-03 15:57:48,0.718s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e""))",Chrome 120.0.0.0,,,2024-01-03 15:57:48,2024-01-03 15:57:48,0.699s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""2m9u9haLo3Dd/p6+0T8ZCw=="")",Chrome 120.0.0.0,,,2024-01-03 15:57:48,2024-01-03 15:57:49,0.390s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Chrome 120.0.0.0,,,2024-01-03 15:57:49,2024-01-03 15:57:49,0.359s,PASSED
+"click(findTestObject(""Page_Facebook  log in or sign up/profile icon image""))",Chrome 120.0.0.0,,,2024-01-03 15:57:49,2024-01-03 15:57:58,8.934s,PASSED
+"verifyElementVisible(findTestObject(""Page_Facebook  log in or sign up/profile inside profile icon image""))",Chrome 120.0.0.0,,,2024-01-03 15:57:58,2024-01-03 15:57:59,0.783s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-03 15:57:59,2024-01-03 15:57:59,0.669s,PASSED
+,,,,,,,
+Test Cases/Negative Case/Login with empty email,Chrome 120.0.0.0,,,2024-01-03 15:57:59,2024-01-03 15:58:06,6.476s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-03 15:58:00,2024-01-03 15:58:01,1.138s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 120.0.0.0,,,2024-01-03 15:58:01,2024-01-03 15:58:03,1.998s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e""))",Chrome 120.0.0.0,,,2024-01-03 15:58:03,2024-01-03 15:58:03,0.568s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""2m9u9haLo3Dd/p6+0T8ZCw=="")",Chrome 120.0.0.0,,,2024-01-03 15:58:03,2024-01-03 15:58:04,0.385s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Chrome 120.0.0.0,,,2024-01-03 15:58:04,2024-01-03 15:58:04,0.361s,PASSED
+"verifyElementText(findTestObject(""Page_Facebook  log in or sign up/the email address is not connected to an account""), ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Chrome 120.0.0.0,to verify if warning text shows up after login with empty email,,2024-01-03 15:58:04,2024-01-03 15:58:05,1.200s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-03 15:58:05,2024-01-03 15:58:06,0.596s,PASSED
+,,,,,,,
+Test Cases/Negative Case/Login with empty password,Chrome 120.0.0.0,,,2024-01-03 15:58:06,2024-01-03 15:58:15,8.727s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-03 15:58:06,2024-01-03 15:58:07,1.125s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 120.0.0.0,,,2024-01-03 15:58:07,2024-01-03 15:58:08,1.237s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""girilaris01@gmail.com"")",Chrome 120.0.0.0,,,2024-01-03 15:58:08,2024-01-03 15:58:09,0.775s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e""))",Chrome 120.0.0.0,,,2024-01-03 15:58:09,2024-01-03 15:58:10,0.347s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Chrome 120.0.0.0,,,2024-01-03 15:58:10,2024-01-03 15:58:10,0.455s,PASSED
+"verifyElementText(findTestObject(""Page_Facebook  log in or sign up/we will send you a code""), ""We'll send you a code to your email address"")",Chrome 120.0.0.0,to verify if another page shows up after try to login with empty password,,2024-01-03 15:58:10,2024-01-03 15:58:14,3.982s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-03 15:58:14,2024-01-03 15:58:15,0.603s,PASSED
+,,,,,,,
+Test Cases/Negative Case/login with invalid email but valid password,Chrome 120.0.0.0,,,2024-01-03 15:58:15,2024-01-03 15:58:24,9.667s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-03 15:58:15,2024-01-03 15:58:16,1.125s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 120.0.0.0,,,2024-01-03 15:58:16,2024-01-03 15:58:17,1.375s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""emailinvalid.com"")",Chrome 120.0.0.0,,,2024-01-03 15:58:17,2024-01-03 15:58:18,0.771s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e""))",Chrome 120.0.0.0,,,2024-01-03 15:58:18,2024-01-03 15:58:18,0.340s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""2m9u9haLo3Dd/p6+0T8ZCw=="")",Chrome 120.0.0.0,,,2024-01-03 15:58:18,2024-01-03 15:58:19,0.370s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Chrome 120.0.0.0,,,2024-01-03 15:58:19,2024-01-03 15:58:19,0.346s,PASSED
+"verifyElementVisible(findTestObject(""Page_Facebook  log in or sign up/element warning""))",Chrome 120.0.0.0,untuk verify icon warning muncul,,2024-01-03 15:58:19,2024-01-03 15:58:23,4.194s,PASSED
+"verifyElementText(findTestObject(""Page_Facebook  log in or sign up/the email address is not connected to an account""), ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Chrome 120.0.0.0,,,2024-01-03 15:58:23,2024-01-03 15:58:24,0.317s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-03 15:58:24,2024-01-03 15:58:24,0.620s,PASSED

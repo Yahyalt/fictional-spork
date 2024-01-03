@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Positive Case/Login with valid data","testCaseId":"Test Cases/Positive Case/Login with valid data","iterationVariableName":""}
+{"testCaseName":"Test Cases/Negative Case/Login with empty email","testCaseId":"Test Cases/Negative Case/Login with empty email","iterationVariableName":""}
+{"testCaseName":"Test Cases/Negative Case/Login with empty password","testCaseId":"Test Cases/Negative Case/Login with empty password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Negative Case/login with invalid email but valid password","testCaseId":"Test Cases/Negative Case/login with invalid email but valid password","iterationVariableName":""}

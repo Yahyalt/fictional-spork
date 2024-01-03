@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.facebook.com/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'), 
-    'girilaris01@gmail.com')
+    'emailinvalid.com')
 
 WebUI.click(findTestObject('Object Repository/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e'))
 
@@ -31,9 +31,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Facebook  log in o
 
 WebUI.click(findTestObject('Object Repository/Page_Facebook  log in or sign up/button_Log in'))
 
-WebUI.click(findTestObject('Page_Facebook  log in or sign up/profile icon image'))
+'untuk verify icon warning muncul'
+WebUI.verifyElementVisible(findTestObject('Page_Facebook  log in or sign up/element warning'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Facebook  log in or sign up/profile inside profile icon image'))
+WebUI.verifyElementText(findTestObject('Page_Facebook  log in or sign up/the email address is not connected to an account'), 
+    'The email address or mobile number you entered isn\'t connected to an account. Find your account and log in.')
 
 WebUI.closeBrowser()
 
