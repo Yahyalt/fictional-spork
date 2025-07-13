@@ -199,12 +199,6 @@ Reports/
 
 This project is for educational and testing purposes only. Ensure compliance with Facebook's Terms of Service when using this automation.
 
-## 📞 Support
-
-For issues or questions:
-- Check the troubleshooting section
-- Review Katalon documentation
-- Contact the test automation team
 
 ---
 
